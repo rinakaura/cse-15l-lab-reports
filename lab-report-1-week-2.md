@@ -16,15 +16,25 @@ Trying Some Commands
 - Open a terminal in VSCode
 - Try some of the following commands
 > $ cd
+> 
 > $ cd ~
+> 
 > $ ls
+> 
 > $ ls -a
+> 
 > $ ls -alt
+> 
 > $ cp /home/linux/ieng6/cs15lwi22/public/hello.txt ~/
+> 
 > $ cat /home/linux/ieng6/cs15lwi22/public/hello.txt
+> 
 - Here's what some of the commands should look like:
-
+![Image](typingcommands.png)
 ---
 Moving Files with scp
+---
 Setting an SSH Key
+---
 Optimizing Remote Running
+---
