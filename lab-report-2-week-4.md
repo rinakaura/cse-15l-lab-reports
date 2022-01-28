@@ -1,20 +1,31 @@
 ## Change 1
 
 ![Image](change1.png)
-Link to the test file for a failure-inducing input that prompted you to make that change
-Show the symptom of that failure-inducing input by showing the output of running the file at the command line for the version where it was failing (this should also be in the commit message history)
-Write 2-3 sentences describing the relationship between the bug, the symptom, and the failure-inducing input
+
+[Test-file](test-file-filler.md)
+
+![Image](symptom-filler.png)
+
+This file contains a link without parentheses (failure-inducing input), so MarkdownParse should have returned an empty array, given that the link was not formatted properly. Instead, MarkdownParse returned a StringIndexOutOfBoundsException (symptom). We found that the cause of the symptom was that the .indexOf() function returned -1 because it could not find the opening parenthesis (bug), so we added an if statement to ensure that the code would only search for a link if the markdown file had an opening parentheses.
+
 ---
 ## Change 2
 
 ![Image](change2.png)
-Link to the test file for a failure-inducing input that prompted you to make that change
-Show the symptom of that failure-inducing input by showing the output of running the file at the command line for the version where it was failing (this should also be in the commit message history)
-Write 2-3 sentences describing the relationship between the bug, the symptom, and the failure-inducing input
+
+[Test-file](test-file-filler.md)
+
+![Image](symptom-filler.png)
+
+This file contains a link without parentheses (failure-inducing input), so MarkdownParse should have returned an empty array, given that the link was not formatted properly. Instead, MarkdownParse returned a StringIndexOutOfBoundsException (symptom). We found that the cause of the symptom was that the .indexOf() function returned -1 because it could not find the opening parenthesis (bug), so we added an if statement to ensure that the code would only search for a link if the markdown file had an opening parentheses.
+
 ---
 ## Change 3
 
 ![Image](change3.png)
-Link to the test file for a failure-inducing input that prompted you to make that change
-Show the symptom of that failure-inducing input by showing the output of running the file at the command line for the version where it was failing (this should also be in the commit message history)
-Write 2-3 sentences describing the relationship between the bug, the symptom, and the failure-inducing input
+
+[Test-file](test-file-filler.md)
+
+![Image](symptom-filler.png)
+
+This file contains a link without parentheses (failure-inducing input), so MarkdownParse should have returned an empty array, given that the link was not formatted properly. Instead, MarkdownParse returned a StringIndexOutOfBoundsException (symptom). We found that the cause of the symptom was that the .indexOf() function returned -1 because it could not find the opening parenthesis (bug), so we added an if statement to ensure that the code would only search for a link if the markdown file had an opening parentheses.
