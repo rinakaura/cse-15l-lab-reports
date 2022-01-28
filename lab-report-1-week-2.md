@@ -40,14 +40,27 @@ $ cat /home/linux/ieng6/cs15lwi22/public/hello.txt
 ```
 $ scp filename.java cs15lwi22atu@ieng6.ucsd.edu:~/
 ```
-- Enter your password
-- Log into ieng6 and see your file
+- Enter your password to log in to ieng6
+- You should now see your file:
+![Image](scpexample.png)
 ---
 ## Setting an SSH Key
 
-- Type $ ssh-keygen
+- Type 
+```
+$ ssh-keygen
+```
+  into your terminal. Your result should look close to:
+![Image](sshkeygen.png)
 - Copy the public key on the id_rsa.pub file from the .ssh directory on your computer
+- Try ssh or scp without entering your password. It should work.
 ---
 ## Optimizing Remote Running
 
-- 
+- Type quotes around your commands to promptly log in and execute commands. For example, try:
+```
+$ ssh cs15lwi22@ieng6.ucsd.edu "ls"
+```
+- To reduce keystrokes, click the up arrow to get past commands or use semicolons to run multiple commands at once
+![Image](optimizing remote running.png)
+- By calling multiple commands on one line I managed to copy and run WhereAmI.java on a remote server in 116 keystrokes, saving me 9 keystrokes.
