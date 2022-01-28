@@ -1,3 +1,8 @@
+# Lab Report 2
+
+_Note: The changes in the Markdown repository where not committed until the file was fully edited, so some improvisation was needed for the code change diff and symptom images. _
+
+
 ## Change 1
 
 ![Image](change-1.png)
