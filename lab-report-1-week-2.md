@@ -62,5 +62,5 @@ $ ssh-keygen
 $ ssh cs15lwi22@ieng6.ucsd.edu "ls"
 ```
 - To reduce keystrokes, click the up arrow to get past commands or use semicolons to run multiple commands at once
-![Image](optimizing remote running.png)
+![Image](optimizingremoterunning.png)
 - By calling multiple commands on one line I managed to copy and run WhereAmI.java on a remote server in 116 keystrokes, saving me 9 keystrokes.
