@@ -1,6 +1,6 @@
 ## Change 1
 
-![Image](change1.png)
+![Image](change-1.png)
 
 [Test-file with no parentheses](woohoo.md)
 
@@ -12,7 +12,7 @@ This file contains a link without parentheses (failure-inducing input), so Markd
 ---
 ## Change 2
 
-![Image](change2.png)
+![Image](change-2.png)
 
 [Test-file with no brackets](ms.md)
 
