@@ -34,7 +34,9 @@ all-test-files.md
 ![Image](afterlogin.png)
 
 ---
-You can complete this whole process in one line by typing
+You can complete this whole process and run all MarkdownParseTest tests by typing the following command:
 ```
-$ scp -r . cs15lwi22@ieng6.ucsd.edu:~/markdown-parse; ssh cs15lwi22zz@ieng6.ucsd.edu
+$ scp -r . cs15lwi22atu@ieng6.ucsd.edu:~/; ssh cs15lwi22atu@ieng6.ucsd.edu "javac -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar MarkdownParseTest.java; java -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar org.junit.runner.JUnitCore MarkdownParseTest"
 ```
+
+![Image](oneline.png)
