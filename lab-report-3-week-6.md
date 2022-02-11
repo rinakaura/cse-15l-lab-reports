@@ -2,6 +2,7 @@
 
 ## Copy whole directories with scp -r
 
+
 First, check that you're in the markdown-parse directory
 ```
 $ cd markdown-parse
@@ -33,4 +34,7 @@ all-test-files.md
 ![Image](afterlogin.png)
 
 ---
-Show (like in the last step of the first lab) combining scp, ;, and ssh to copy the whole directory and run the tests in one line.
+You can complete this whole process in one line by typing
+```
+$ scp -r . cs15lwi22@ieng6.ucsd.edu:~/markdown-parse; ssh cs15lwi22zz@ieng6.ucsd.edu
+```
