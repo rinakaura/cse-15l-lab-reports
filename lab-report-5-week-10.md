@@ -13,13 +13,36 @@ $ diff md4/results.txt lab9/results.txt
 ```
 
 The results from diff were as follows:
-![Image](diff.png)
+![Image](newdiff.png)
 
-## Test 1
-![Image](diff1.png)
+## Test 1: 194.md
+![Image](newdiff1.png)
+Difference on line 212 of the results.txt files which corresponds with 194.md
+![Image](194md.png)
+My Output: []
+The Professor's Output: [url]
 
-## Test 2
-![Image](diff2.png)
+To find the expected output, I used the [Commonmark Parser](https://spec.commonmark.org/dingus/) and looked at the HTMl tab to find the link destination.
+![Image](linkdest.png)
+
+Expected Output: [my_(url)]
+
+Neither markdown-parse directory produced the correct output.
+Bug:
+
+## Test 2: 201.md
+![Image](newdiff2.png)
+Difference on line 230 of the results.txt files which corresponds with 201.md
+![Image](201md.png)
+My Output: []
+The Professor's Output: [baz]
+
+To find the expected output, I used the [Commonmark Parser](https://spec.commonmark.org/dingus/) and looked at the HTMl tab to find the link destination.
+![Image](nolinkdest.png)
+
+Expected Output: []
+My markdown-parse directory produced the correct output.
+Bug: 
 
 For each test:
 Describe which implementation is correct, or if you think neither is correct, by showing both actual outputs and indicating what the expected output is.
