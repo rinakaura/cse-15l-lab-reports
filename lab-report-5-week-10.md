@@ -25,6 +25,7 @@ Difference on line 212 of the results.txt files which corresponds with 194.md
 ![Image](194md.png)
 
 My Output: []
+
 The Professor's Output: [url]
 
 ### Expected Output
@@ -63,6 +64,7 @@ Difference on line 230 of the results.txt files which corresponds with 201.md
 ![Image](201md.png)
 
 My Output: []
+
 The Professor's Output: [baz]
 
 ### Expected Output
@@ -79,7 +81,7 @@ Then, I pasted the contents into the [Commonmark Parser](https://spec.commonmark
 
 Expected Output: []
 
-My markdown-parse directory produced the correct output.
+My markdown-parse directory produced the correct output, the lab 9 directory did not.
 
 ### Finding the Bug
 
